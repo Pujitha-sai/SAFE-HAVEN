@@ -1,0 +1,14 @@
+# Ignore all dependency folders in root, client, and server
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Ignore sensitive environment variables/secrets
+.env
+server/.env
+
+# Optional: Ignore local editor settings
+.vscode/
+
+# Optional: Ignore the large demo video if you don't want it on GitHub
+# Project_Execution.mp4
